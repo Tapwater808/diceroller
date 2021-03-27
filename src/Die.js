@@ -6,8 +6,7 @@ class Die extends Component{
   render(){
     const {face, rolling} = this.props
       
-    // Using font awesome icon to show 
-    // the exactnumber of dots
+    // FA icron
     return <i className={`Die fas fa-dice-${face}
               ${rolling && 'Die-shaking'}`}/>
   }
